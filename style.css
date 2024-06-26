@@ -1,0 +1,75 @@
+body { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.342);
+    height: 80vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    padding: 1.5rem;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+
+.display {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: monospace;
+    color: rgba(0, 0, 0, 0.75);
+    text-shadow: 2px 2px 3px grey;
+    margin-bottom: 1rem;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.controls button {
+    min-width: 105px;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: background-color ease-in-out 0.3s;
+}
+
+.startBtn {
+    background-color: hsl(120, 100%, 40%);
+}
+.startBtn:hover {
+    background-color: hsl(120, 100%, 35%);
+}
+
+.stopBtn {
+    background-color: hsl(0, 100%, 50%);
+}
+
+.stopBtn:hover {
+    background-color: hsl(0, 100%, 45%);
+}
+
+.resetBtn {
+    background-color: hsl(184, 100%, 40%);
+}
+
+.resetBtn:hover {
+    background-color: hsl(184, 100%, 35%);
+}
